@@ -7,9 +7,10 @@ In today's digital landscape, the integration of cutting-edge technologies with 
 Imagine a scenario where a client's database is written in COBOL, requiring access to data for fraud detection purposes. This is precisely the situation where leveraging machine learning within COBOL becomes imperative. 
 
 
-![IMG](https://miro.medium.com/v2/resize:fit:1023/1*du7p50wS_fIsaC_lR18qsg.png)
 
 ## What is FastAPI? 
+![IMG](https://miro.medium.com/v2/resize:fit:1023/1*du7p50wS_fIsaC_lR18qsg.png)
+
   FastAPI is a web framework for building APIs with Python 3.7+ based on standard Python type hints. It is built on top of Starlette for the web parts and Pydantic for the data        parts. FastAPI is designed to be easy to use, fast to develop with, and highly performant, making it an ideal choice for building robust APIs. 
 
   **Getting Started**
@@ -60,8 +61,9 @@ Imagine a scenario where a client's database is written in COBOL, requiring acce
 
 So this is the short cod where scaler variable and Ml Model from joblib file and integrated it in fast api.
 
-![IMG](https://www.opensourceforu.com/wp-content/uploads/2021/03/Cobol-classical-programming_Featuree-image-2.jpg)
 ## What is COBOL? 
+![IMG](https://www.opensourceforu.com/wp-content/uploads/2021/03/Cobol-classical-programming_Featuree-image-2.jpg)
+
   COBOL, which stands for Common Business-Oriented Language, is a high-level programming language primarily used for business, finance, and administrative systems. It was developed in the late 1950s and early 1960s, making it one of the oldest programming languages still in use today. COBOL is known for its readability and structured programming features, making it suitable for large-scale enterprise applications. 
 
   **How to use COBOL to call FAST API**
@@ -98,5 +100,11 @@ Lets write a small COBOL program:
 The program will form cURL Command something just like this: 
 
     curl -X POST -H 'Content-Type: application/json' -d "{\"column1\":\"value1\",\"column2\":\"value2\",\"column3\":\"value3\",\"column4\":\"value4\"}" http://192.158.152/mlPredictionModel 
-  
 
+    
+
+## Diagramatic Representation of working:
+
+![ML_COBOL1](https://github.com/Piyush007k/Piyush007k-Integrating-COBOL-Legacy-Systems-with-Machine-Learning-Using-APIs/assets/105144617/56ecfe92-2635-458c-9098-10a8c48fd08d)
+
+It can be used with any API Fast API, Rest API etc, in this way their is direct connection between Cobol program and API using OS Environment. No third party tools or any third party Library are used everything is generic. So, you can prefer this.
