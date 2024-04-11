@@ -103,7 +103,7 @@ The program will form cURL Command something just like this:
 
     
 
-## Diagramatic Representation of working:
+## Diagramatic Representation Of Working:
 
 ![ML_COBOL1](https://github.com/Piyush007k/Piyush007k-Integrating-COBOL-Legacy-Systems-with-Machine-Learning-Using-APIs/assets/105144617/56ecfe92-2635-458c-9098-10a8c48fd08d)
 
