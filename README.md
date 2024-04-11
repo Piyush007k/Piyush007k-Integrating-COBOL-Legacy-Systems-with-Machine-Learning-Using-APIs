@@ -14,11 +14,12 @@ Imagine a scenario where a client's database is written in COBOL, requiring acce
   FastAPI is a web framework for building APIs with Python 3.7+ based on standard Python type hints. It is built on top of Starlette for the web parts and Pydantic for the data        parts. FastAPI is designed to be easy to use, fast to develop with, and highly performant, making it an ideal choice for building robust APIs. 
 
   **Getting Started**
-    To begin with FastAPI, you'll need Python 3.7 or higher installed on your system. You can install FastAPI and Uvicorn, the ASGI server, using pip:
+  
+  To begin with FastAPI, you'll need Python 3.7 or higher installed on your system. You can install FastAPI and Uvicorn, the ASGI server, using pip:
     
-    [pip install fastapi uvicorn] 
+    pip install fastapi uvicorn 
     
-  Creating Your First FastAPI Application Developing a Basic FastAPI Application with Integrated Machine Learning Functionality: 
+  **Creating Your First FastAPI Application Developing a Basic FastAPI Application with Integrated Machine Learning Functionality:** 
 
     from fastapi import FastAPI , HTTPException,Request 
     import uvicorn 
@@ -67,10 +68,11 @@ So this is the short cod where scaler variable and Ml Model from joblib file and
   COBOL, which stands for Common Business-Oriented Language, is a high-level programming language primarily used for business, finance, and administrative systems. It was developed in the late 1950s and early 1960s, making it one of the oldest programming languages still in use today. COBOL is known for its readability and structured programming features, making it suitable for large-scale enterprise applications. 
 
   **How to use COBOL to call FAST API**
+  
   COBOL is an older language and may not have built-in support for making HTTP request, so here we used cURL utility which is command-line utility. That can make HTTP request.	You can use “ CALL ‘SYSTEM’ “ statement to provide a way for COBOL 	program to interact with OS environment and execute command on 	terminal. 
 Optionally,the “RETURNING” statement can be used with “ CALL ‘SYSTEM’ “ to capture the return status of the command execution. We can directly display or store the variable in test file for futher manipulation. 
 
-Lets write a small COBOL program: 
+**Lets write a small COBOL program:** 
 
     IDENTIFICATION DIVISION. 
     PROGRAM-ID. CallFastAPI. 
@@ -97,7 +99,7 @@ Lets write a small COBOL program:
 
  
 
-The program will form cURL Command something just like this: 
+**The program will form cURL Command something just like this:** 
 
     curl -X POST -H 'Content-Type: application/json' -d "{\"column1\":\"value1\",\"column2\":\"value2\",\"column3\":\"value3\",\"column4\":\"value4\"}" http://192.158.152/mlPredictionModel 
 
